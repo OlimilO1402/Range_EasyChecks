@@ -21,9 +21,9 @@ How do we do this? Of course you know, we do this with the help of relational co
  * =   Equal to
  * <>  Not Equal to
  * <   Less than
- * >   Greater than
+ * \>   Greater than
  * <=  Less then or equal
- * >=  Greater than or equal  
+ * \>=  Greater than or equal  
   
 https://en.wikipedia.org/wiki/Relational_operator
 https://de.wikipedia.org/wiki/Vergleichsoperator
