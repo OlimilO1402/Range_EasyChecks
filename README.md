@@ -1,9 +1,9 @@
-# <App_Name>  
-## <App short description>  
+# Range_EasyChecks  
+## Easy range checking conditionals  
 
-[![GitHub](https://img.shields.io/github/license/OlimilO1402/<App_Name>?style=plastic)](https://github.com/OlimilO1402/<App_Name>/blob/master/LICENSE) 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/OlimilO1402/<App_Name>?style=plastic)](https://github.com/OlimilO1402/<App_Name>/releases/latest)
-[![Github All Releases](https://img.shields.io/github/downloads/OlimilO1402/<App_Name>/total.svg)](https://github.com/OlimilO1402/<App_Name>/releases/download/v1.0.0/<App_Name>_v1.0.0.zip)
+[![GitHub](https://img.shields.io/github/license/OlimilO1402/Range_EasyChecks?style=plastic)](https://github.com/OlimilO1402/Range_EasyChecks/blob/master/LICENSE) 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/OlimilO1402/Range_EasyChecks?style=plastic)](https://github.com/OlimilO1402/Range_EasyChecks/releases/latest)
+[![Github All Releases](https://img.shields.io/github/downloads/OlimilO1402/Range_EasyChecks/total.svg)](https://github.com/OlimilO1402/Range_EasyChecks/releases/download/v1.0.0/Range_EasyChecks_v1.0.0.zip)
 ![GitHub followers](https://img.shields.io/github/followers/OlimilO1402?style=social)
 
 Range-Checking Made Easy
@@ -23,7 +23,8 @@ How do we do this? Of course you know, we do this with the help of relational co
  * <   Less than
  * >   Greater than
  * <=  Less then or equal
- * >=  Greater than or equal
+ * >=  Greater than or equal  
+  
 https://en.wikipedia.org/wiki/Relational_operator
 https://de.wikipedia.org/wiki/Vergleichsoperator
 
@@ -349,6 +350,7 @@ Private Function IRange_ToStr(Optional FormatAsTyp As VbVarType = vbDouble) As S
 End Function
 ```  
 
-[Link text Here](https://link-url-here.org) 
+[Relational_operator](https://en.wikipedia.org/wiki/Relational_operator)
+[Vergleichsoperator](https://de.wikipedia.org/wiki/Vergleichsoperator)
 
 ![EasyRangeCheckingConditionals Image](Resources/EasyRangeCheckingConditionals.png "EasyRangeCheckingConditionals Image")
