@@ -245,8 +245,8 @@ End Function
 OK, of course we want to have reusable code so we like to copy all the above code into a class.
 We could name it "Range" or maybe "RangeCheck" if we want to use this class also in Excel-VBA.
 
-```vba  
-' v ' ################################################################################################# ' v '
+```vba 
+' v ' ########################################################################################### ' v '
 Option Explicit
 Private m_Min As Double
 Private m_Max As Double
@@ -288,7 +288,7 @@ Public Function ToStr(Optional FormatAsTyp As VbVarType = vbDouble) As String
     Dim pr As String: pr = IIf((m_Typ And 1) = 1, " ]", " [")
     ToStr = ERangeType_ToStr(m_Typ) & ": " & pl & FormatRange(FormatAsTyp, m_Min, m_Max) & pr
 End Function
- ^ ################################################################################################# ^ '
+' ^ ' ########################################################################################### ' ^ '
 ```  
 
 OK are we ready now? Maybe not, if we listen to what my namesake Scott Meyers has to say:
