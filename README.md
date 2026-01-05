@@ -24,20 +24,18 @@ How do we do this? Of course you know, we do this with the help of relational co
  * \>   Greater than
  * <=  Less then or equal
  * \>=  Greater than or equal  
-  
-https://en.wikipedia.org/wiki/Relational_operator
-https://de.wikipedia.org/wiki/Vergleichsoperator
 
 OK, so what do we do if we want to check e.g. whether a value falls below the minimum-value of a range.
 We could either write:
  * "if value is less then minimunm" or we could write
  * "if value is greater then minimum" or we could write
  * "if minimum is less then value" or we could write
- * "if minimum is greater then value"
- and another 4 possiblities of writing code for checking the maximum value
- and another 8 posibilities of writing code for checking if the boundaries are also included, with less/greater then or equal.
+ * "if minimum is greater then value"  
+and another 4 possiblities of writing code for checking the maximum value  
+and another 8 posibilities of writing code for checking if the boundaries are also included, with less/greater then or equal.
 
-So do we need all those possible operator combinations, well sometimes we use all those operators, just because we can, but should we?
+So do we need all those possible operator combinations?
+Well sometimes we use all those operators, just because we can, but should we?
 
 How and Why
 -----------
@@ -350,7 +348,7 @@ Private Function IRange_ToStr(Optional FormatAsTyp As VbVarType = vbDouble) As S
 End Function
 ```  
 
-[Relational_operator](https://en.wikipedia.org/wiki/Relational_operator)
-[Vergleichsoperator](https://de.wikipedia.org/wiki/Vergleichsoperator)
+[Relational_operator](https://en.wikipedia.org/wiki/Relational_operator)  
+[Vergleichsoperator](https://de.wikipedia.org/wiki/Vergleichsoperator)  
 
 ![EasyRangeCheckingConditionals Image](Resources/EasyRangeCheckingConditionals.png "EasyRangeCheckingConditionals Image")
