@@ -70,6 +70,7 @@ Option Explicit
 Private m_AllRanges As Collection 'Of IRange
 
 Private Sub Form_Load()
+    Me.Caption = Me.Caption & " v" & App.Major & "." & App.Minor & "." & App.Revision
     MRange.InitIRangeVTable
     Set m_AllRanges = CreateAllRanges(DateSerial(2025, 1, 1), DateSerial(Year(Now), Month(Now), Day(Now)))
 End Sub

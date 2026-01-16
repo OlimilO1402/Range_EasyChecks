@@ -78,19 +78,19 @@ Public Sub InitIRangeVTable()
 End Sub
 
 Public Function IRangeExMinExMax(ByVal RangeMin As Double, ByVal RangeMax As Double) As IRange
-    
+    Set IRangeExMinExMax = MPtr.PtrToObject(m_pIRangeExMinExMaxVTable)
 End Function
 
 Public Function IRangeExMinInMax(ByVal RangeMin As Double, ByVal RangeMax As Double) As IRange
-    
+    Set IRangeExMinInMax = MPtr.PtrToObject(m_pIRangeExMinInMaxVTable)
 End Function
 
 Public Function IRangeInMinExMax(ByVal RangeMin As Double, ByVal RangeMax As Double) As IRange
-    
+    Set IRangeInMinExMax = MPtr.PtrToObject(m_pIRangeInMinInMaxVTable)
 End Function
 
 Public Function IRangeInMinInMax(ByVal RangeMin As Double, ByVal RangeMax As Double) As IRange
-    
+    Set IRangeInMinExMax = MPtr.PtrToObject(m_pIRangeInMinInMaxVTable)
 End Function
 
 ' v ############################## v '    IUnkown    ' v ############################## v '
